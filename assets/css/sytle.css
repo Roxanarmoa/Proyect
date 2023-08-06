@@ -1,0 +1,580 @@
+
+
+
+
+/** reset **/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif; /* texto predeterminado */
+    
+}
+
+ul, ol, li {
+    list-style-type: none;
+}
+
+/** cierre reset **/
+
+
+
+
+
+
+
+/** header **/
+
+/* barra de navegacion */
+
+
+.bg-personalizado{
+    background-color: darksalmon;;
+}
+
+.nav-log{
+    width:48px;
+    border-radius: 100%;
+}
+
+.nav-link{
+    display: flex;
+    font-size: 24px;
+    color: white;
+}
+.navbar-expand-md .offcanvas .offcanvas-body {
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: 0;
+    padding: 0;
+    overflow-y: visible
+}
+
+
+/** cierre header **/
+
+
+
+
+
+
+
+
+
+
+
+
+/** main **/
+
+/* fondo contenedor */
+.container{
+    display: grid;
+    background-color: rgb(245, 250, 255);
+    max-width: 100%;
+}
+
+/* logo */
+.boxl{
+    display: grid;
+    justify-content: center;
+}
+.logo{
+    width: 250px;
+    border-radius: 100% ;
+    margin-inline: 40px;
+    padding: 1%;
+}
+/**/
+
+
+
+
+/* contenedor */
+
+.box_container{
+    display: grid;
+    grid-template-columns: 2fr 0.7fr;
+}
+
+.box_main{
+    display: grid;
+    align-items: center;
+    flex-direction: column;
+    gap: 3px ;
+}
+
+/**/
+.titulo{
+    font-size: 48px;
+    color: rgb(236, 126, 200);
+    font-weight: bold;
+    width: 86%;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+.subtitulo{   
+    font-size: 23px;
+    color: rgb(238, 162, 213);
+    font-weight: bold;
+    width: 75%;
+    padding-top: 1%;
+    padding-left: 7%;
+}
+
+.box_button{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-block-end: 92px;
+}
+.button{
+    background-color: darksalmon;
+    color: aliceblue;
+    font-size: 19px;
+    border: 15px;
+    border-radius: 20px;
+    padding: 17px 38px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+/* hover */
+.button:hover{
+    background-color: rgba(233, 150, 122, 0.753);
+    color: white;
+    width: 155px;
+}
+/**/
+
+
+
+/* imagen */
+.box_img {
+    display: flex;
+    width: 300px;
+    border-radius: 100%;
+}
+/* hover */
+.box_main_img img:hover{
+    width: 360px;
+    transition: 0.5s;
+}
+
+/**/
+
+/** cierre inicio **/
+
+
+
+
+
+
+
+
+
+
+
+/** servicios **/
+.containerS{
+    background-color: aliceblue;
+    display: grid;
+}
+.title{
+    color:rgb(236, 126, 200);
+    font-size: 40px;
+    margin-inline: 30%;
+    text-align: center;
+    padding: 3%;
+}
+
+/* articles */
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aliceblue;
+    padding: 30px;
+    color: rgb(236, 126, 200);
+}
+.card-body img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.card-body{
+    width: 30%;
+    background-color: honeydew;
+    
+}
+
+.card-body h2 , .card-body p {
+    padding: 10px;
+}
+
+/**/
+
+
+
+/* tips y consejos */
+.box_note h2{ 
+    width: 100%;
+}
+.note{
+    color:rgb(236, 126, 200);
+    font-size: 20px;
+    margin: 12px 300px;
+    text-align: center;
+}
+
+
+/* articulos*/
+.box_c{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+
+.list{
+    text-align: left;
+    padding: 2%;
+    color:rgb(236, 126, 200);
+    font-size: 22px;
+    margin-top: 60px;
+}
+
+
+.item{
+    text-align: left;
+    font-style: italic;
+    padding: 0.2%;
+    color:rgb(236, 126, 200);
+    font-size: 20px;
+}
+/**/
+
+/** cierre servicios **/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/** trabajos **/
+
+
+/* left */
+.cards2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: end;
+    padding: 30px;
+    color: rgb(236, 126, 200);
+
+}
+.card-body2{
+    width: 80%;
+
+}
+.card-body2 img{
+    width: 50%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.card-body3{
+    width: 80%;
+}
+.card-body3 img{
+    width: 50%;
+    height: 400px;
+    object-fit: cover;
+}
+
+
+
+/** cierre trabajos **/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/** reservas **/
+.box{
+    display: grid;
+    justify-items: center;
+}
+.subt{
+    width: 50%;
+    padding: 0.2%;
+    color:rgb(236, 126, 200);
+    font-size: 20px;
+}
+
+.subt2{
+    width: 50%;
+    padding: 0.2%;
+    color:rgb(236, 126, 200);
+    font-size: 20px;
+}
+
+
+/* reserva*/
+.boxR{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    
+    padding-block-end: 60px;
+}
+.title2{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    color:darksalmon;
+    font-size: 40px;
+    padding: 2%;
+    
+}
+
+
+/* margin en label */ 
+.margin{
+    font-size: 20px;
+    font-weight: bold;
+    color: darksalmon;
+}
+
+/* datos de margin */
+.date{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    padding: 15px;
+}
+/* boton de margin*/
+.botonR{
+    display: flex;
+    justify-content: center;
+}
+.buttonR{
+    width: 145px;
+    height: 40px;
+    color: white;
+    background-color:darksalmon ;
+    border: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+
+/** cierre reservas **/
+
+
+
+
+
+
+
+
+/** contacto **/
+
+
+/* contenedor */
+.boxC{
+    background-image: url('../img/fondo1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: grid;
+    justify-items:center;
+    justify-content: space-evenly;
+}
+/**/
+
+.boxC h1{
+    padding-top: 100px;
+}
+.title3{
+    color: white;
+    font-size: 40px;
+    padding: 1%;
+}
+
+
+.contact{
+    color: white;
+    font-size: 30px;
+    padding: 2%;
+}
+
+/* info */
+
+.info{
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+}
+.info2{
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+}
+.info3{
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+}
+/**/
+
+/* text */
+.titles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titles p{
+    padding-block-end: 150px;
+}
+.title4{
+    color: white;
+    width: 103%;
+    font-size: 34px;
+    padding: 1.5%;
+}
+
+
+/** cierre contacto **/
+
+/** cierre main **/
+
+
+
+
+
+
+
+
+
+/* footer */
+
+footer {
+    background-color: darksalmon;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 22px;  /*color de fondo */
+}
+.ifooter h2{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+.pfooter{
+    color: white;
+    font-size: 15px;
+}
+
+
+
+/* cierre footer */
+
+
+/* mediaqueries*/
+
+@media screen and (max-width:480px) {
+    
+
+    /*  main  */
+    main{
+        overflow: hidden;
+    }
+    .box_container{
+        display: grid;
+        grid-template-columns: auto;
+        
+    }
+    .box_main{
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .titulo{
+        width:100%;
+        font-size: 26px;
+    }
+    .subtitulo{
+        width: 100%;
+        font-size: 16px;
+        padding-left: 24px;
+    }
+    .container_img{
+        flex-direction: column-reverse;
+    }
+    .box_button {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .box_main_img{
+        padding-top: 60px;
+        display: flex;
+        justify-content: center;
+    }
+    /*  cierre main  */
+
+
+
+    /*  reservas  */
+    
+    /* info */
+    .box{
+        display: grid;
+    }
+    .title{
+        display: flex;
+        justify-content: center;
+        width: 100px;
+    }
+    .subt{
+        width: 100%;
+        font-size: 20px;
+    }
+    .subt2{
+        width: 100%;
+    }
+
+    .boxR{
+        display: grid;
+        justify-items: center;
+    }
+    .date{
+        width: 92%;
+        padding: 9px;
+    }
+
+/* footer */
+footer{
+    gap: 30px;
+}
+
+}
+
+
+
+/* espero no haya sido un quilombo :c */
