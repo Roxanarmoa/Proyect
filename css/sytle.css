@@ -210,6 +210,14 @@ ul, ol, li {
     padding: 10px;
 }
 
+/* hover */
+.img{
+    width: 100%;
+}
+.img:hover{
+    width: 700px;
+    transition: 0.9s;
+}
 /**/
 
 
