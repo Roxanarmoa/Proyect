@@ -186,6 +186,7 @@ ul, ol, li {
     padding: 3%;
 }
 
+
 /* articles */
 .cards{
     display: flex;
@@ -210,6 +211,8 @@ ul, ol, li {
     padding: 10px;
 }
 
+
+
 /* hover */
 .img{
     width: 100%;
@@ -219,7 +222,6 @@ ul, ol, li {
     transition: 0.9s;
 }
 /**/
-
 
 
 /* tips y consejos */
@@ -260,6 +262,8 @@ ul, ol, li {
 /**/
 
 /** cierre servicios **/
+
+
 
 
 
@@ -401,6 +405,12 @@ ul, ol, li {
 
 
 
+
+
+
+
+
+
 /** contacto **/
 
 
@@ -480,6 +490,9 @@ ul, ol, li {
 
 
 
+
+
+
 /* footer */
 
 footer {
@@ -498,9 +511,15 @@ footer {
     font-size: 15px;
 }
 
-
-
 /* cierre footer */
+
+
+
+
+
+
+
+
 
 
 /* mediaqueries*/
