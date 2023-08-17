@@ -595,10 +595,67 @@ footer {
         padding: 9px;
     }
 
-/* footer */
-footer{
-    gap: 30px;
-}
+
+    /*  servicios  */
+    .containerS {
+        display: grid;
+        justify-items: center;
+        justify-content: center;
+    }
+    .cards{
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    
+    .box_c{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 900px;
+    }
+    .noteh2{
+        color:rgb(236, 126, 200);
+        display: flex;
+        flex-wrap: wrap;
+        width: 300px;
+        text-align: center;
+    }
+    /*  cierre servicios  */
+
+
+
+
+    /*  trabajos  */
+    .container{
+        display: grid;
+    }
+    .cards2{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        width: 650px;
+    }
+    /*  cierre trabajos  */
+
+    /*  contacto  */
+
+    .boxC{
+        display: grid;
+    }
+    .titles{
+        display: flex;
+        align-items: flex-start;
+    }
+
+    /*  cierre contacto  */
+
+
+    /* footer */
+    footer{
+        gap: 30px;
+    }
 
 }
 
