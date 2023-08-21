@@ -1,0 +1,32 @@
+/** trabajos **/
+
+
+/* left */
+.cards2{
+    @include fonts(rgb(236, 126, 200),10px,30px);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: end;
+
+}.card-body2{
+    width: 80%;
+
+}
+.card-body2 img{
+    width: 50%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.card-body3{
+    width: 80%;
+}
+.card-body3 img{
+    width: 50%;
+    height: 400px;
+    object-fit: cover;
+}
+
+
+
+  /** cierre trabajos **/

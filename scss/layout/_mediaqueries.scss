@@ -1,0 +1,134 @@
+@media screen and (max-width:480px) {
+    
+
+    /*  main  */
+    main{
+        overflow: hidden;
+    }
+    .box_container{
+        display: grid;
+        grid-template-columns: auto;
+        
+    }
+    .box_main{
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .titulo{
+        width:100%;
+        font-size: 26px;
+    }
+    .subtitulo{
+        width: 100%;
+        font-size: 16px;
+        padding-left: 24px;
+    }
+    .container_img{
+        flex-direction: column-reverse;
+    }
+    .box_button {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .box_main_img{
+        padding-top: 60px;
+        display: flex;
+        justify-content: center;
+    }
+    /*  cierre main  */
+
+
+
+    /*  reservas  */
+    
+    /* info */
+    .box{
+        display: grid;
+    }
+    .title{
+        display: flex;
+        justify-content: center;
+        width: 100px;
+    }
+    .subt{
+        width: 100%;
+        font-size: 20px;
+    }
+    .subt2{
+        width: 100%;
+    }
+
+    .boxR{
+        display: grid;
+        justify-items: center;
+    }
+    .date{
+        width: 92%;
+        padding: 9px;
+    }
+
+
+    /*  servicios  */
+    .containerS {
+        display: grid;
+        justify-items: center;
+        justify-content: center;
+    }
+    .cards{
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    
+    .box_c{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 900px;
+    }
+    .noteh2{
+        color:rgb(236, 126, 200);
+        display: flex;
+        flex-wrap: wrap;
+        width: 300px;
+        text-align: center;
+    }
+    /*  cierre servicios  */
+
+
+
+
+    /*  trabajos  */
+    .container{
+        display: grid;
+    }
+    .cards2{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        width: 650px;
+    }
+    /*  cierre trabajos  */
+
+    /*  contacto  */
+
+    .boxC{
+        display: grid;
+    }
+    .titles{
+        display: flex;
+        align-items: flex-start;
+    }
+
+    /*  cierre contacto  */
+
+
+    /* footer */
+    footer{
+        gap: 30px;
+    }
+
+}

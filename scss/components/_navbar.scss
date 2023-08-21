@@ -1,0 +1,28 @@
+/** header **/
+
+/* barra de navegacion */
+
+
+.bg-personalizado{
+    background-color: darksalmon;
+}
+
+.nav-log{
+    width:48px;
+    border-radius: 100%;
+}
+
+.nav-link{
+    display: flex;
+    font-size: 24px;
+    color: white;
+}
+.navbar-expand-md .offcanvas .offcanvas-body {
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: 0;
+    padding: 0;
+    overflow-y: visible
+}
+
+  /** cierre header **/

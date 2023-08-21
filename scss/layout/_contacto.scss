@@ -1,0 +1,60 @@
+/** contacto **/
+
+
+/* contenedor */
+.boxC{
+    background-image: url('../img/fondo1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: grid;
+    justify-items:center;
+    justify-content: space-evenly;
+}
+/**/
+
+.boxC h1{
+    padding-top: 100px;
+}
+.title3{
+    @include fonts(white,40px,1%);
+}
+
+
+.contact{
+    @include fonts(white,30px,2%);
+}
+
+  /* info */
+
+.info{
+    @include fonts(white,30px,0px);
+    font-weight: bold;
+    
+}
+.info2{
+    @include fonts(white,30px,0px);
+    font-weight: bold;
+}
+.info3{
+    @include fonts(white,30px,0px);
+    font-weight: bold;
+}
+/**/
+
+  /* text */
+.titles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titles p{
+    padding-block-end: 150px;
+}
+.title4{
+    @include fonts(white,34px,1.5%);
+    width: 103%;
+}
+
+
+  /** cierre contacto **/

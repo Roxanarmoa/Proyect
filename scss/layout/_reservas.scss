@@ -1,0 +1,60 @@
+/** reservas **/
+
+.box{
+    display: grid;
+    justify-items: center;
+}
+.subt{
+    @include fonts(rgb(236, 126, 200),20px,0.2%);
+    width: 50%;
+}
+
+.subt2{
+    @include fonts(rgb(236, 126, 200),20px,0.2%);
+    width: 50%;
+}
+
+
+/* reserva*/
+.boxR{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    padding-block-end: 60px;
+}
+.title2{
+    @include flex(center);
+    @include fonts(darksalmon,40px,2%);
+    width: 60%;
+}
+
+
+  /* margin en label */ 
+.margin{
+    @include fonts(darksalmon,20px,0px);
+    font-weight: bold;
+}
+
+  /* datos de margin */
+.date{
+    @include flex(center);
+    width: 70%;
+    padding: 15px;
+}
+/* boton de margin*/
+.botonR{
+    @include flex(center);
+}
+.buttonR{
+    width: 145px;
+    height: 40px;
+    color: white;
+    background-color:darksalmon ;
+    border: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+
+  /** cierre reservas **/

@@ -1,0 +1,18 @@
+
+
+
+@mixin fonts($color, $font, $padding){
+    color: $color;
+    font-size: $font;
+    padding: $padding;
+}
+
+
+
+@mixin flex($justify){
+    display: flex;
+    justify-content: $justify;
+}
+
+
+
