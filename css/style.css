@@ -430,6 +430,7 @@ footer {
   }
   .titulo {
     width: 100%;
+    margin-inline: 25%;
     font-size: 26px;
   }
   .subtitulo {
