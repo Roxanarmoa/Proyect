@@ -338,8 +338,9 @@ footer {
 }
 
 .img:hover {
-  width: 700px;
-  transition: 0.9s;
+  width: 620px;
+  transition: 0.5s;
+  object-fit: cover;
 }
 
 /**/
@@ -500,6 +501,14 @@ footer {
     flex-wrap: wrap;
     width: 300px;
     text-align: center;
+  }
+  .img {
+    width: 100%;
+  }
+  
+  .img:hover {
+    width: 350px;
+    transition: 0.5s;
   }
   /*  cierre servicios  */
   /*  trabajos  */
