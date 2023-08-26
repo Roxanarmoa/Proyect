@@ -87,6 +87,7 @@ footer {
 .box_main {
   display: grid;
   align-items: center;
+  justify-items: center;
   flex-direction: column;
   gap: 3px;
 }
@@ -527,6 +528,13 @@ footer {
   .boxC {
     display: grid;
   }
+  .boxC h1 {
+    padding-top: 50px;
+  }
+  .contact{
+    padding-top: 50px;
+  }
+  
   .titles {
     display: flex;
     align-items: flex-start;
